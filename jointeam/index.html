@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+    <body>
+    <header>
+        <p class="WOYM"> Apply anytime at this page. Send us some basic info, and we will e-mail you a destination to e-mail your resume.</p>
+        <p class="LMK">Thanks for applying to Beards!</p>
+    </header>
+    <button class="returntohome" onclick="window.location.href='../index.html'">Return Home</button>
+    <h2>We will contact you shortly after receiving your application<br>
+        Our hours of operation are Mon - Fri 8 AM to 8 PM
+    </h2>
+    <div class=container>
+    <h3>Our corperate offices</h3>
+    <p>seriousbuisness@gmail.com</p>
+    <h3>Corperate Number</h3>
+    <p>512-856-7777</p>
+    </div>
+    <div class="buttons">
+        <button class="linkedin" onclick="window.location.href='https:/www.linkedin.com/in/cody-blair-8b91161a7';"></button>
+        <button class="github" onclick="window.location.href='https://github.com/G-Geo';"></button>
+    </div>
+    <form action="results.html" method="GET">
+        <div class="tophalf">
+            <h4>Name:</h4>
+            <label for="first">First</label>
+            <input type="text" id="first" name="name" placeholder="First Name"><br>
+            <label for="last">Last</label>
+            <input type="text" id="last" name="name" placeholder="Last Name">
+        </div>
+        <div>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+        </div>
+        <div>
+            <h4>DOB:</h4>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        
+        <div class="bottomhalf">
+        <h4>How did you hear about the position?</h4>
+        <input type="checkbox" id="Employee" name="Employee"></input>
+        <label for="checkbox">Current Employee</label><br>
+        <input type="checkbox" id="Advertisement" name="Advertisement"></input>
+        <label for="checkbox">Internet Advertisement</label><br>
+        <input type="checkbox" id="Linkedin" name="Linkedin"></input>
+        <label for="checkbox">Linkedin</label><br>
+        <input type="checkbox" id="Other" name="Other"></input>
+        <label for="checkbox">Other</label><br><br>
+        </div>
+
+        <div class="bottomhalf">
+        <label for="y/n" class=WYLTBC>Can we call you?</label><br><br>
+        <input type="radio" id="yes" name="y/n" value="Yes Please!">
+        <label for="yes">Yes Please</label>
+        <input type="radio" id="no" name="y/n" value="No Way!!">
+        <label for="no">No Thank You</label><br>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>

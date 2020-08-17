@@ -1,0 +1,553 @@
+body { 
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    
+}
+
+/*topheader*/
+
+.headbr{
+height: 50px;
+}
+.topheader {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    z-index: 1;
+    top: 0px;
+}
+.topheaderdiv {
+    margin-right: 2%;
+}
+.logo {
+    cursor: pointer;
+    height: 100%;
+    margin-left: 2%;
+}
+.bookbutton {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    height: 50px;
+}
+.jointeambutton {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: blue;
+    height: 50px;
+
+}
+
+.bookbutton:hover{
+    color: black;
+    background-color: yellow;
+}
+
+.jointeambutton:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.ath {
+    margin-right: 10pt;
+}
+.ath:hover {
+    cursor: pointer;
+}
+/*Maintext*/
+
+.warningmessage {
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    background-color: yellow;
+    text-align: center;
+    height: 30px;
+}
+
+main {
+    background-image: url(./Images/bodybackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    justify-content: center;
+    color: white;  
+}
+
+.midtextandbuttons {
+   position:absolute;
+   margin-left: 35%;
+   margin-top: 30vh;
+}
+h2 {
+ font-size: 3em;
+}
+
+.belowmain {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 2%;
+}
+.middleheader {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    background-color: rgba(230, 230, 230, 0.5);
+}
+
+/* Brands and sponsers */
+
+#allbrands {
+    width: 120px;
+    height: 40px;
+    background-size: cover;
+}
+
+.Chronicle {
+    margin-left: 10%;
+}
+
+.Forbes {
+    width: 100px;
+    height: 40px;
+}
+
+.MensJournal {
+    margin-right: 10%;
+}
+
+/* images and offers */
+
+.imagesanddiscounts {
+    padding-top: 5%;
+    display: grid;
+    padding-bottom: 8%;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-rows: 45% 30% 25%;
+    background-color: rgba(230, 230, 230, 0.5);
+}
+
+.img1 {
+    box-sizing: border-box;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90%;
+    grid-row-start: 1;
+    grid-column-start:2;
+}
+
+.img2 {
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+    grid-column-start:3;
+    grid-row-start:2
+}
+.img3 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    margin: auto;
+    height: auto;
+    height: auto;
+    max-width: 100%;
+    margin-top: 20pt;
+    grid-column-start:2;
+    grid-row-start:3
+}
+
+.VO {
+    grid-column-start:3;
+    margin-top: 20px;
+    width: 50%;
+   
+}
+
+.CCO {
+    grid-column-start:2;
+    grid-row-start:2
+}
+.GC {
+    margin-left: 10pt;
+    margin-top: 20pt;
+    grid-column-start:3;
+    grid-row-start: 3;
+}
+.readmore{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+}
+
+/* IMAGES FOOTER*/
+.footerimagescontainer{
+    margin-left: 5vw;
+}
+#imagescontainer{
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 100%;
+}
+#allfooterimages{
+    justify-content: space-between;
+    margin-top: 50pt;
+    min-width: 150px;
+    width: 20%;
+    margin-left: 20pt;}
+
+/*FOOTER*/
+
+
+footer {
+    border-top: 12pt solid black;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 100%;
+    padding: 20pt;
+}
+.bottomlogo {
+    height: 150px;
+    margin-top: 6%;
+}
+h4 {
+    font-size: 2em;
+}
+.footerp {
+    font-size: .7em;
+}
+.copywritecontainer {
+    grid-column-start: 1;
+    padding-right: 20px;
+}
+.contactuscontainer {
+    margin-top: -25px;
+    grid-column-start: 2;
+    margin-left: 15px;
+}
+.socialcontainer {
+    display: grid;
+    grid-template-columns: 10% 85% 5%;
+    grid-template-rows: 40% 20% 20% 20%;
+    margin-top: -30px;
+    margin-left: 15px;
+}
+
+/* LOGOS */
+
+.smalllogos {
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 20px;
+    width: 20px;
+}
+.socialmediacontainer {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#smallinstagram {
+    grid-column: 1;
+    grid-row: 2;
+}
+#smallfacebook {
+    grid-column: 1;
+    grid-row: 3;
+}
+#smalltwitter {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+/* LOGO TEXT*/
+
+
+#smalltext{
+    margin-left: 10px;
+    padding-left: 10pt;
+    margin-top: 10px;
+}
+.instagramtext {
+    grid-column: 2;
+    grid-row: 2;
+}
+.facebooktext {
+    grid-column: 2;
+    grid-row: 3;
+}
+.twittertext {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+
+/*Maintext*/
+
+
+
+main {
+    height: 70vh;  
+}
+
+.midtextandbuttons {
+   margin-left: 30%;
+   margin-top: 25vh;
+}
+h2 {
+ font-size: 2.5em;
+}
+
+.belowmain {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 2%;
+}
+.middleheader {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    background-color: rgba(230, 230, 230, 0.5);
+}
+    /* Brands and sponsers */
+
+#allbrands {
+    width: 80px;
+    margin: 5pt;
+}
+
+/* images and offers */
+
+.imagesanddiscounts {
+    padding-top: 0%;
+    grid-template-rows: 40% 40% 20%;
+    
+}
+
+.img1 {
+    min-width: 150px;
+}
+.img3 {
+    margin-left: -20pt;
+    min-width: 200px;
+    min-height: 120px;
+}
+.VO {
+    padding-left: 15pt;
+}
+.GC {
+    margin-top: 5pt;
+    padding-left: 5pt;
+}
+
+/* IMAGES FOOTER*/
+#allfooterimages {
+    width: 150px;
+    margin-left: 20pt;
+}
+
+
+/*Footer Boxes*/
+
+.bottomlogo {
+    height: 130px;
+}
+h4 {
+    font-size: 2em;
+}
+.footerp {
+    font-size: .7em;
+}
+.copywritecontainer {
+    margin-left: 0pt;
+    grid-column-start: 1;
+}
+.contactuscontainer {
+    margin-top: -30pt;
+    margin-left: -8pt;
+    grid-column-start: 2;
+}
+.socialcontainer {
+    margin-left: 20pt;
+    margin-top: -30pt;
+}
+
+/* LOGOS */
+
+.smalllogos {
+    margin-top: 65%;
+    height: 20px;
+    width: 20px;
+}
+.socialmediacontainer {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#smallinstagram {
+    grid-column: 1;
+    grid-row: 2;
+}
+#smallfacebook {
+    grid-column: 1;
+    grid-row: 3;
+}
+#smalltwitter {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+/* LOGO TEXT*/
+
+
+.smalltext{
+    padding-left: 15pt;
+}
+
+@media (max-width:480px) {
+
+    /*Maintext*/
+
+main {
+    height: 60vh;  
+}
+
+.midtextandbuttons {
+   margin-left: 10%;
+   margin-top: 15vh;
+}
+h2 {
+ font-size: 2.5em;
+}
+
+.belowmain {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 2%;
+}
+.middleheader {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    background-color: rgba(230, 230, 230, 0.5);
+}
+    /*topheader*/
+
+.headbr{
+    height:40px;
+    }
+    .topheader {
+        height: 40px;
+    }
+ 
+    .bookbutton {
+        font-size: .5em;
+        height: 35px;
+    }
+    .jointeambutton {
+        font-size: .5em;
+        height: 35px;
+    
+    }
+    .ath {
+        font-size: .7em;
+        margin-right: 10pt;
+    }
+    .warningmessage {
+        text-align: center;
+        font-size: .7em;
+    }
+    .belowmain {
+        font-size: 1.1em;
+    }
+
+    /* images and offers */
+
+    .imagesanddiscounts {
+        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-rows: 35% 35% 30%;
+   
+    }
+    .ianddtitletext{
+        font-size:1.3em
+    }
+    .ianddptext {
+        font-size:.9em
+    }
+    .GC {
+        margin-top: 15pt;
+        padding-left: 10pt;
+    }
+    .img2 {
+        padding-left: 15pt;
+    }
+    .img3{
+        min-width: 180px;
+        min-height: 100px;
+        padding-top: 15pt;
+    }
+
+    /* BRANDS */
+
+
+    #allbrands {
+        width: 70px;
+        margin: 2pt;
+    }
+
+    /* LOGOS */
+
+#socialmediaid{
+    padding-bottom: 40pt;
+    margin-left: -10pt;
+    margin-top: 30pt;
+}
+#contactusid {
+    margin-top: 40pt;
+}
+
+.bottomlogo {
+    height: 80px;
+}
+#footertitletext{
+    font-size: .7em;
+}
+.smalllogos {
+    height: 15px;
+    width: 15px;
+    margin-left: -8px;
+}
+
+/* LOGO TEXT*/
+
+
+#smalltext{
+    margin-left: -5pt;
+    margin-top: 3pt;
+}
+/* IMAGES FOOTER*/
+
+#allfooterimages{
+    justify-content: space-between;
+    margin-top: 30pt;
+    max-width: 100px;
+    margin-left: 0pt;
+}
+}
